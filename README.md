@@ -5,4 +5,8 @@ The Dice Game é um mini jogo que está sendo desenvolvido de forma colaborativa
 
 Antes de clonar este repositório, é necessário ter o git instalado na sua máquina. 
 
+No Linux utilize o comando
+
+```sudo apt-get install git```
+
 
