@@ -9,4 +9,6 @@ No Linux utilize o comando
 
 ```sudo apt-get install git```
 
+No Windows, [clique](https://git-scm.com/) neste link para download e prossiga a instalação normalment. Se houver dúvidas durante a instalação, recomendo acompanhar esse [tutorial](https://www.youtube.com/watch?v=gMh6lrXibWY) em vídeo que ensina passo a passo de como instalar o software. A instalação começa em "23:33".
+
 
