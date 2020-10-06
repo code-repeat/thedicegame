@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 10px; }
+
+.container {
+  min-width: 400px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%); }
+  .container .score-board-area {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-weight: lighter; }
+  .container .game-area {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem; }
+  .container .button-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem; }
+    .container .button-area .roll-dice {
+      position: relative;
+      background-color: #7bed9f;
+      color: #fff;
+      text-transform: uppercase;
+      padding: 1rem;
+      border: none;
+      text-align: center;
+      cursor: pointer;
+      font-size: 1rem;
+      transition-duration: 0.4s;
+      overflow: hidden;
+      box-shadow: 0 5px 15px #193047;
+      border-radius: 4px; }
+      .container .button-area .roll-dice:hover {
+        background: #2ed573;
+        color: #fff; }
+      .container .button-area .roll-dice:after {
+        content: "";
+        background: #1abc9c;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -20px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s; }
+      .container .button-area .roll-dice:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s; }
+      .container .button-area .roll-dice:focus {
+        outline: 0; }
